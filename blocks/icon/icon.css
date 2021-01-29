@@ -1,0 +1,18 @@
+.icon-container {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: #f3f9fa;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.icon_primary {
+    fill: var(--color-primary)
+}
