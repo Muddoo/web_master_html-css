@@ -1,0 +1,28 @@
+.list {
+    list-style: none;
+    padding: 0;
+    color: var(--color-headings);
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.list_inline {
+    flex-direction: row;
+    column-gap: 5rem;
+}
+
+.list_tick {
+    list-style-image: url('../../images/tick.svg');
+    padding-left: 3rem;
+}
+
+.list_tick .list__item {
+    padding-left: .5rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .list_tick .list__item {
+        padding-left: 0;
+    }
+}
