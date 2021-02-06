@@ -1,0 +1,12 @@
+.media {
+    display: flex;
+    gap: 2rem;
+}
+
+.media__title {
+    margin-top: 0;
+}
+
+.media__image {
+    margin-top: 1rem;
+}

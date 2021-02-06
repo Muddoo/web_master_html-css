@@ -3,10 +3,13 @@
 
 @import url('../blocks/root/root.css');
 
-@import url('../blocks/page/page.css');
+@import url('../blocks/body/body.css');
 @import url('../blocks/link-arrow/link-arrow.css');
 @import url('../blocks/badge/badge.css');
 @import url('../blocks/list/list.css');
 @import url('../blocks/icon/icon.css');
 @import url('../blocks/btn/btn.css');
 @import url('../blocks/input/input.css');
+@import url('../blocks/card/card.css');
+@import url('../blocks/plan/plan.css');
+@import url('../blocks/media/media.css');
