@@ -7,12 +7,20 @@
     justify-content: center;
     align-items: center;
 }
-
+.icon-container_accent {
+    background-color: var(--color-accent);
+}
 .icon {
     width: 40px;
     height: 40px;
 }
-
+.icon_small {
+    width: 30px;
+    height: 30px;
+}
+.icon_white {
+    fill: white;
+}
 .icon_primary {
     fill: var(--color-primary)
 }

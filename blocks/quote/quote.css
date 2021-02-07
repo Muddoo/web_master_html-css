@@ -4,7 +4,6 @@
     color: var(--color-body-darker);
     line-height: 1.3;
 }
-
 .quote__text::before {
     content: open-quote;
 }
