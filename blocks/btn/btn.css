@@ -19,6 +19,10 @@
     width: 100%;
 }
 
+.btn_stretched {
+    padding: 2rem 6rem;
+}
+
 .btn_outline {
     background-color: #fff;
     color: var(--color-headings);
