@@ -8,6 +8,13 @@
     padding: 2rem 3rem;
 }
 
+.card_primary .card__header {
+    background-color: var(--color-primary);
+    color: #fff;
+}
+.card_primary .badge_primary {
+    background-color: #055aca
+}
 .card_secondary .card__header {
     background-color: var(--color-secondary);
     color: #fff;

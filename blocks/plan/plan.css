@@ -1,3 +1,12 @@
+.plan {
+    transition: all .2s;
+}
+.plan:hover {
+    transform: scale(1.05);
+}
+.plan_popular:hover {
+    transform: scale(1.15);
+}
 .plan__name {
     color: #fff;
     margin: 0;
@@ -37,7 +46,7 @@
     display: inline-block;
     top: -6px;
     right: 5%;
-    width: 40px;
+    width: 33px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -52,5 +61,8 @@
     }
     .plan__description {
         font-size: 1.7rem;
+    }
+    .plan_popular {
+        transform: scale(1.1);
     }
 }

@@ -12,3 +12,8 @@
     font-size: 2rem;
     line-height: 1.5;
 }
+@media screen and (min-width: 1024px) {
+    .body {
+        font-size: 1.8rem;
+    }
+}
