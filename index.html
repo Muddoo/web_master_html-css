@@ -3,10 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pages/index.css">
+    <script> </script>
     <title>Document</title>
-    <link rel="stylesheet" href="./pages/index.css">
 </head>
-<body class="body" style="height: 100vh;padding: 4rem;">
+<body class="body" styl="height: 100vh;padding: 4rem;">
+    <section class="block block_dark block_skewed-left hero">
+        <div class="container grid grid_col-2">
+            <header class="block__header hero__content">
+                <h1 class="block__heading">Cloud Hosting for Pros</h1>
+                <p class="hero__text">Deploy your websites in less than 60 seconds.</p>
+                <a href="" class="btn btn_accent btn_stretched">Get Started</a>
+            </header>
+            <picture>
+                <source type="image/webp" srcset="images/banner.webp 1x, images/banner@2x.webp 2x">
+                <source type="image/png" srcset="images/banner.png 1x, images/banner@2x.png 2x">
+                <img class="hero__image" src="images/banner.webp" alt="banner">
+            </picture>
+        </div>
+    </section>
     <!-- <div style="width: 50%;">
         <div class="plan plan_popular">
             <div class="card card_secondary">
@@ -122,7 +137,7 @@
             </header>
         </div>
     </section> -->
-    <nav class="nav collapsible">
+    <!-- <nav class="nav collapsible">
         <a href="/"><img src="images/logo.svg" alt="logo"></a>
         <svg class="icon icon_white nav__toggler">
             <use xlink:href="./images/sprite.svg#menu"></use>
@@ -133,7 +148,7 @@
             <li class="nav__item"><a href="">Domain</a></li>
             <li class="nav__item"><a href="">Pricing</a></li>
         </ul>
-    </nav>
+    </nav> -->
     <script src="js/main.js"></script>
 </body>
 </html>
