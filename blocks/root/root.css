@@ -35,6 +35,13 @@ p {
 a {
     text-decoration: none;
 }
+img {
+    width: 100%;
+}
+::selection {
+    color: white;
+    background-color: var(--color-primary);
+}
 @media screen and (min-width: 1024px) {
     body {
         font-size: 1.8rem;

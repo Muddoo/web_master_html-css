@@ -1,7 +1,6 @@
 .list {
     list-style: none;
     padding: 0;
-    color: var(--color-headings);
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
@@ -15,6 +14,7 @@
 .list_tick {
     list-style-image: url('../../images/tick.svg');
     padding-left: 3rem;
+    color: var(--color-headings);
 }
 
 .list_tick .list__item {
