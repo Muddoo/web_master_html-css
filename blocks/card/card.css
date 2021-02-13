@@ -5,7 +5,7 @@
 }
 
 .card__header, .card__body {
-    padding: 2rem 3rem;
+    padding: 2rem 7%;
 }
 
 .card_primary .card__header {

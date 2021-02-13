@@ -43,9 +43,6 @@ img {
     background-color: var(--color-primary);
 }
 @media screen and (min-width: 1024px) {
-    body {
-        font-size: 1.8rem;
-    }
     h1 {
         font-size: 8rem;
     }

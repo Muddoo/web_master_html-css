@@ -13,7 +13,7 @@
 }
 
 .quote__author {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 500;
     font-style: normal;
     margin-bottom: 0;
@@ -23,8 +23,7 @@
     color: var(--color-headings);
     opacity: .4;
     font-style: normal;
-    font-size: 2rem;
-    margin-top: 0;
+    font-size: 1.5rem;
 }
 
 .quote__line {

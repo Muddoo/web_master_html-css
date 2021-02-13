@@ -10,6 +10,7 @@
     -webkit-tap-highlight-color: transparent;
     font-size: 2rem;
     line-height: 1.5;
+    color: var(--color-body);
 }
 @media screen and (min-width: 1024px) {
     .body {

@@ -8,7 +8,7 @@
 
 .list_inline {
     flex-direction: row;
-    column-gap: 5rem;
+    column-gap: 2rem;
 }
 
 .list_tick {
