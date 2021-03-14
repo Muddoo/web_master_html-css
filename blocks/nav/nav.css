@@ -12,6 +12,23 @@
     position: relative;
     top: 3px;
 }
+.nav__brand {
+    padding: 0 15px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.nav__logo {
+    font-size: 2rem;
+    text-shadow: 0 0 10px #fff, 0 0 80px #fff, 0 0 30px wheat, 0 0 40px blue, 0 0 50px yellow, 0 0 60px orange, 0 0 70px yellow;
+    color: ghostwhite;
+    margin: 0;
+    font-weight: 700;
+    text-align: center;
+}
+.nav__logo_position-top {
+    font-size: 2.4rem;
+    margin-top: -20px;
+}
 .nav__list {
     width: 100%;
     margin: 0;
@@ -44,6 +61,9 @@
 @media screen and (min-width: 768px) {
     .nav__toggler {
         display: none;
+    }
+    .nav__brand {
+        padding: 0 20px;
     }
     .nav__list {
         width: auto;
