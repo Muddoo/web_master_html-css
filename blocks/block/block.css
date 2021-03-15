@@ -20,7 +20,7 @@
 }
 .block_skewed-right {
     padding-bottom: 9rem;
-    clip-path: polygon(0 0,100% 0,100% 100%,0 98%);
+    clip-path: polygon(0 0,100% 0,100% 100%,0 99%);
 }
 .block_skewed-left {
     padding-bottom: 9rem;

@@ -12,6 +12,9 @@
 *,*::before,*::after {
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 h1,h2,h3 {
     color: var(--color-headings);
     margin-bottom: 1rem;
