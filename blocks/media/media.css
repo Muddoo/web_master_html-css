@@ -11,3 +11,7 @@
 .media__image {
     margin-top: 1rem;
 }
+
+.media__body {
+    margin-right: 2rem;
+}

@@ -15,6 +15,9 @@
 .block_dark .block__heading {
     color: white;
 }
+.block_dark h1, .block_dark h2, .block_dark h3 {
+    color: #fff;
+}
 .block_skewed-right {
     padding-bottom: 9rem;
     clip-path: polygon(0 0,100% 0,100% 100%,0 95%);

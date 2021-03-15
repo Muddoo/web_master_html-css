@@ -1,6 +1,12 @@
 .footer {
     background: #232323;
     padding-top: 10rem;
+    min-height: 356px;
+    display: flex;
+}
+
+.footer .container {
+    width: 100%;
 }
 
 .footer a {
